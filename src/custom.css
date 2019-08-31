@@ -1,0 +1,72 @@
+/* general rule */
+a, a:hover{
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+/* header navbar  */
+.header-color {
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+
+  .projects-grid {
+    display: flex;
+  }
+  .example {
+    padding: 0 25px;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  code {
+    padding: .2em .5em;
+    font-size: 85%;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px;
+  }
+  
+  .menu {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #cccccc;
+  }
+  
+  .item {
+    padding: 2px 6px;
+    cursor: default;
+  }
+  
+  .item-highlighted {
+    color: white;
+    background-color: #4095bf;
+  }
+  
+  .item-header {
+    background-color: #eeeeee;
+    color:blue;
+    font-weight: bold;
+  }
